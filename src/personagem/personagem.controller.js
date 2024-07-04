@@ -44,7 +44,6 @@ async function updateById(req, res) {
     // Acessamos o ID dos parâmetros de rota
     const id = req.params.id
 
-
     // Acessamos o Body da requisição
     const newItem = req.body
 
