@@ -1,5 +1,9 @@
+const service = require('./personagem.service')
+
 function readAll(req, res) {
-    res.send('Read All')
+    const items = service.readAll()
+    
+    res.send(items)
 }
 
 function readById(req, res) {
