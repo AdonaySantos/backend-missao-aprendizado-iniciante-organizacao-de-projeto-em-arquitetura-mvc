@@ -5,6 +5,7 @@ function getCollection(){
 }
 
 function readAll() {
+    // Acessamos a lista de itens na collection do MongoDB
     return getCollection().find().toArray()
 }
 
